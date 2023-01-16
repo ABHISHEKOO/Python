@@ -34,4 +34,4 @@ for i in range (r):
     print("  " , '=' , "  ")
     for j in range (c):
         print(s[i][j], end = "  ")
-    print( )
+    print(  )
