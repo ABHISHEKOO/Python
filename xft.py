@@ -8,15 +8,13 @@ for i in range (r):
         v=int(input('enter no'))
         t.append (v)
     a.append(t)
-print(a)
-b=[ ]
+b=[]
 for i in range(r):
     t=[ ]
     for j in range(c):
         v=int(input('enter no'))
         t.append(v)
     b.append (t)
-print(b)
 # processing loop.
 s=[]
 for i in range (r):
@@ -28,14 +26,15 @@ for i in range (len(a)):
     for j in range (len(s)):
         for k in range (len(b)):
             s[i][j]+=a[i][j]*b[i][j]
+
 # output loop.
 for i in range (r):
     for j in range (c):
         print(a[i] [j],end=" ")
-    print("  ", '+' , "  ")
+    print("  ", '+' , "  ",end=" ")
     for j in range (c):
         print(b[i][j],end=" ")
-    print("  " , '=' , "  ")
+    print("  " , '=' , "  ",end=" ")
     for j in range (c):
-        print(s[i][j], end = " ")
+        print(s[i] [j],end= " ")
     print()
