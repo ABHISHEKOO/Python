@@ -4,3 +4,4 @@ if r>0:
     print("area of circul,",a )
 else:
     print("invaild radius")
+print("programe finised")
