@@ -2,8 +2,6 @@ def lsearch(l,n,key):
     for i in range(0,n):
         if (l[i]==key):
             return i
-        return -1
-    
 n=int(input('enter size of list: '))
 l=[]
 for i in range(n):
