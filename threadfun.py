@@ -12,8 +12,8 @@ for num in range(1,101):
     t.start()
 #wait for the threads to compleat
 for t in threads:
-    t.join()
-
+    t.join()++6
+    
 end_time = time.time()
 
 print(f"it took{end_time-start_time:0.2f}seconds to compleat:")
