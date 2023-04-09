@@ -20,7 +20,7 @@ def login():
 
 name_label = Label(root, text = 'Username', font=('calibre',15,'bold'))
 name_entry = Entry(root,textvariable=name_var, font=('calibre',15,'bold'))
-passw_lable = Label(root,text= 'password', font=('calibre',15,'bold'))
+passw_lable = Label(root,text=  passw_var, font=('calibre',15,'bold'))
 passw_entry = Entry(root, textvariable=passw_var, font=('calibre',15,'bold'),show='*')
 sub_btn=Button(root,text ='LOGIN',font=('calibre',15,'bold' ),command=login)
 
