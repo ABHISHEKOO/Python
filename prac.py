@@ -1,6 +1,5 @@
-l=45
-b=9
-a=l*b
-pr=2*(l+b)
-print('area of the rectangle:',a)
-print('peremiter of reactangle',pr)
+user1 = "alberto"
+user2 = "babs"
+user3 = "carlos"
+output =f"{user1} \n{user2} \n{user3} "
+print(output)
